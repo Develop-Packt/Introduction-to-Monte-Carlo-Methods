@@ -1,0 +1,65 @@
+## Chapter 1,2:
+Pillow==7.0.0
+scipy==1.4.1
+numpy==1.18.1
+matplotlib==3.1.3
+import-ipynb==0.1.3
+gym==0.15.4
+tensorflow==1.15.0
+
+## Chapter 3, 4, 7:
+#### Ubuntu packages / applications
+anaconda
+cmake libopenmpi-dev python3-dev zlib1g-dev
+
+#### Python modules
+python3.7.4
+jupyter
+matplotlib
+numpy
+tensorflow (or tensorflow-gpu) 2.1.0
+tensorflow-datasets
+gym
+gym[atari]
+torch==1.5.0+cpu
+seaborn
+
+## Chapter 10
+gym[atari]==0.17.2
+numpy==1.18.4
+import-ipynb ==0.1.3
+
+#### OpenAI baselines installation
+git clone https://github.com/openai/baselines.git
+cd baselines
+git checkout tf2
+python3.7 -m pip install cloudpickle==1.2.0
+python3.7 -m pip install -e .
+
+## Chapter 11
+cloudpickle==1.3.0
+future==0.18.2
+gym==0.17.2
+numpy==1.18.4
+Pillow==7.1.2
+pyglet==1.5.0
+scipy==1.4.1
+torch==0.4.1
+
+## Chapters 12, 13
+bitstring==3.1.7
+deap==1.3.1
+future==0.18.2
+gym==0.17.2
+jupyter==1.0.0
+matplotlib==3.2.1
+neat-python==0.92
+numpy==1.16.3
+pandas==1.0.3
+pynput==1.6.8
+scipy==1.4.1
+sklearn==0.0
+tensorflow==2.1.0
+tensorflow_probability==0.9.0 
+tqdm==4.45.0
+zipfile2==0.0.12
